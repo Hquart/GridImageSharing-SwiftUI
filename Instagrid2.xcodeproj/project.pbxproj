@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		623827172598D0CB00F7F18D /* Instagrid2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623827162598D0CB00F7F18D /* Instagrid2App.swift */; };
+		623827192598D0CB00F7F18D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623827182598D0CB00F7F18D /* ContentView.swift */; };
+		6238271B2598D0CC00F7F18D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6238271A2598D0CC00F7F18D /* Assets.xcassets */; };
+		6238271E2598D0CC00F7F18D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6238271D2598D0CC00F7F18D /* Preview Assets.xcassets */; };
+		623827292598D0CC00F7F18D /* Instagrid2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623827282598D0CC00F7F18D /* Instagrid2Tests.swift */; };
+		623827342598D0CC00F7F18D /* Instagrid2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623827332598D0CC00F7F18D /* Instagrid2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		623827252598D0CC00F7F18D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6238270B2598D0CB00F7F18D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 623827122598D0CB00F7F18D;
+			remoteInfo = Instagrid2;
+		};
+		623827302598D0CC00F7F18D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6238270B2598D0CB00F7F18D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 623827122598D0CB00F7F18D;
+			remoteInfo = Instagrid2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		623827132598D0CB00F7F18D /* Instagrid2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagrid2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		623827162598D0CB00F7F18D /* Instagrid2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagrid2App.swift; sourceTree = "<group>"; };
+		623827182598D0CB00F7F18D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6238271A2598D0CC00F7F18D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6238271D2598D0CC00F7F18D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6238271F2598D0CC00F7F18D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		623827242598D0CC00F7F18D /* Instagrid2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Instagrid2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		623827282598D0CC00F7F18D /* Instagrid2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagrid2Tests.swift; sourceTree = "<group>"; };
+		6238272A2598D0CC00F7F18D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6238272F2598D0CC00F7F18D /* Instagrid2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Instagrid2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		623827332598D0CC00F7F18D /* Instagrid2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagrid2UITests.swift; sourceTree = "<group>"; };
+		623827352598D0CC00F7F18D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		623827102598D0CB00F7F18D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623827212598D0CC00F7F18D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6238272C2598D0CC00F7F18D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6238270A2598D0CB00F7F18D = {
+			isa = PBXGroup;
+			children = (
+				623827152598D0CB00F7F18D /* Instagrid2 */,
+				623827272598D0CC00F7F18D /* Instagrid2Tests */,
+				623827322598D0CC00F7F18D /* Instagrid2UITests */,
+				623827142598D0CB00F7F18D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		623827142598D0CB00F7F18D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				623827132598D0CB00F7F18D /* Instagrid2.app */,
+				623827242598D0CC00F7F18D /* Instagrid2Tests.xctest */,
+				6238272F2598D0CC00F7F18D /* Instagrid2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		623827152598D0CB00F7F18D /* Instagrid2 */ = {
+			isa = PBXGroup;
+			children = (
+				623827162598D0CB00F7F18D /* Instagrid2App.swift */,
+				623827182598D0CB00F7F18D /* ContentView.swift */,
+				6238271A2598D0CC00F7F18D /* Assets.xcassets */,
+				6238271F2598D0CC00F7F18D /* Info.plist */,
+				6238271C2598D0CC00F7F18D /* Preview Content */,
+			);
+			path = Instagrid2;
+			sourceTree = "<group>";
+		};
+		6238271C2598D0CC00F7F18D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6238271D2598D0CC00F7F18D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		623827272598D0CC00F7F18D /* Instagrid2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				623827282598D0CC00F7F18D /* Instagrid2Tests.swift */,
+				6238272A2598D0CC00F7F18D /* Info.plist */,
+			);
+			path = Instagrid2Tests;
+			sourceTree = "<group>";
+		};
+		623827322598D0CC00F7F18D /* Instagrid2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				623827332598D0CC00F7F18D /* Instagrid2UITests.swift */,
+				623827352598D0CC00F7F18D /* Info.plist */,
+			);
+			path = Instagrid2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		623827122598D0CB00F7F18D /* Instagrid2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 623827382598D0CC00F7F18D /* Build configuration list for PBXNativeTarget "Instagrid2" */;
+			buildPhases = (
+				6238270F2598D0CB00F7F18D /* Sources */,
+				623827102598D0CB00F7F18D /* Frameworks */,
+				623827112598D0CB00F7F18D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Instagrid2;
+			productName = Instagrid2;
+			productReference = 623827132598D0CB00F7F18D /* Instagrid2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		623827232598D0CC00F7F18D /* Instagrid2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6238273B2598D0CC00F7F18D /* Build configuration list for PBXNativeTarget "Instagrid2Tests" */;
+			buildPhases = (
+				623827202598D0CC00F7F18D /* Sources */,
+				623827212598D0CC00F7F18D /* Frameworks */,
+				623827222598D0CC00F7F18D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				623827262598D0CC00F7F18D /* PBXTargetDependency */,
+			);
+			name = Instagrid2Tests;
+			productName = Instagrid2Tests;
+			productReference = 623827242598D0CC00F7F18D /* Instagrid2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6238272E2598D0CC00F7F18D /* Instagrid2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6238273E2598D0CC00F7F18D /* Build configuration list for PBXNativeTarget "Instagrid2UITests" */;
+			buildPhases = (
+				6238272B2598D0CC00F7F18D /* Sources */,
+				6238272C2598D0CC00F7F18D /* Frameworks */,
+				6238272D2598D0CC00F7F18D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				623827312598D0CC00F7F18D /* PBXTargetDependency */,
+			);
+			name = Instagrid2UITests;
+			productName = Instagrid2UITests;
+			productReference = 6238272F2598D0CC00F7F18D /* Instagrid2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6238270B2598D0CB00F7F18D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					623827122598D0CB00F7F18D = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					623827232598D0CC00F7F18D = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 623827122598D0CB00F7F18D;
+					};
+					6238272E2598D0CC00F7F18D = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 623827122598D0CB00F7F18D;
+					};
+				};
+			};
+			buildConfigurationList = 6238270E2598D0CB00F7F18D /* Build configuration list for PBXProject "Instagrid2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6238270A2598D0CB00F7F18D;
+			productRefGroup = 623827142598D0CB00F7F18D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				623827122598D0CB00F7F18D /* Instagrid2 */,
+				623827232598D0CC00F7F18D /* Instagrid2Tests */,
+				6238272E2598D0CC00F7F18D /* Instagrid2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		623827112598D0CB00F7F18D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6238271E2598D0CC00F7F18D /* Preview Assets.xcassets in Resources */,
+				6238271B2598D0CC00F7F18D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623827222598D0CC00F7F18D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6238272D2598D0CC00F7F18D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6238270F2598D0CB00F7F18D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623827192598D0CB00F7F18D /* ContentView.swift in Sources */,
+				623827172598D0CB00F7F18D /* Instagrid2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623827202598D0CC00F7F18D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623827292598D0CC00F7F18D /* Instagrid2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6238272B2598D0CC00F7F18D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623827342598D0CC00F7F18D /* Instagrid2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		623827262598D0CC00F7F18D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 623827122598D0CB00F7F18D /* Instagrid2 */;
+			targetProxy = 623827252598D0CC00F7F18D /* PBXContainerItemProxy */;
+		};
+		623827312598D0CC00F7F18D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 623827122598D0CB00F7F18D /* Instagrid2 */;
+			targetProxy = 623827302598D0CC00F7F18D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		623827362598D0CC00F7F18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		623827372598D0CC00F7F18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		623827392598D0CC00F7F18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Instagrid2/Preview Content\"";
+				DEVELOPMENT_TEAM = 2T8KN29479;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Instagrid2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = none.Instagrid2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6238273A2598D0CC00F7F18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Instagrid2/Preview Content\"";
+				DEVELOPMENT_TEAM = 2T8KN29479;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Instagrid2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = none.Instagrid2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6238273C2598D0CC00F7F18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T8KN29479;
+				INFOPLIST_FILE = Instagrid2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = none.Instagrid2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instagrid2.app/Instagrid2";
+			};
+			name = Debug;
+		};
+		6238273D2598D0CC00F7F18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T8KN29479;
+				INFOPLIST_FILE = Instagrid2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = none.Instagrid2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instagrid2.app/Instagrid2";
+			};
+			name = Release;
+		};
+		6238273F2598D0CC00F7F18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T8KN29479;
+				INFOPLIST_FILE = Instagrid2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = none.Instagrid2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Instagrid2;
+			};
+			name = Debug;
+		};
+		623827402598D0CC00F7F18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T8KN29479;
+				INFOPLIST_FILE = Instagrid2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = none.Instagrid2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Instagrid2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6238270E2598D0CB00F7F18D /* Build configuration list for PBXProject "Instagrid2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				623827362598D0CC00F7F18D /* Debug */,
+				623827372598D0CC00F7F18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		623827382598D0CC00F7F18D /* Build configuration list for PBXNativeTarget "Instagrid2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				623827392598D0CC00F7F18D /* Debug */,
+				6238273A2598D0CC00F7F18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6238273B2598D0CC00F7F18D /* Build configuration list for PBXNativeTarget "Instagrid2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6238273C2598D0CC00F7F18D /* Debug */,
+				6238273D2598D0CC00F7F18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6238273E2598D0CC00F7F18D /* Build configuration list for PBXNativeTarget "Instagrid2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6238273F2598D0CC00F7F18D /* Debug */,
+				623827402598D0CC00F7F18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6238270B2598D0CB00F7F18D /* Project object */;
+}
