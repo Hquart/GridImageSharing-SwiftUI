@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		621CEAC725AEE5B100A3ABA4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621CEAC625AEE5B100A3ABA4 /* Extensions.swift */; };
 		623827172598D0CB00F7F18D /* Instagrid2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623827162598D0CB00F7F18D /* Instagrid2App.swift */; };
-		623827192598D0CB00F7F18D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623827182598D0CB00F7F18D /* ContentView.swift */; };
 		6238271B2598D0CC00F7F18D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6238271A2598D0CC00F7F18D /* Assets.xcassets */; };
 		6238271E2598D0CC00F7F18D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6238271D2598D0CC00F7F18D /* Preview Assets.xcassets */; };
 		623827292598D0CC00F7F18D /* Instagrid2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623827282598D0CC00F7F18D /* Instagrid2Tests.swift */; };
 		623827342598D0CC00F7F18D /* Instagrid2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623827332598D0CC00F7F18D /* Instagrid2UITests.swift */; };
+		623BD42E25A6242300035DD4 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623BD42D25A6242300035DD4 /* ImagePicker.swift */; };
+		62412DE6266264DA00E8A90C /* LayoutStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62412DE5266264DA00E8A90C /* LayoutStackView.swift */; };
+		62412DE826628DCB00E8A90C /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62412DE726628DCB00E8A90C /* Orientation.swift */; };
+		6261F75225B83F630033DEE3 /* Bullpen3D.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6261F75125B83F620033DEE3 /* Bullpen3D.ttf */; };
+		6261F75725B8413C0033DEE3 /* DancingScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6261F75625B8413B0033DEE3 /* DancingScript-Regular.ttf */; };
+		6261F75C25B842190033DEE3 /* ThirstyScriptExtraBoldDemo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6261F75B25B842190033DEE3 /* ThirstyScriptExtraBoldDemo.otf */; };
+		626206E625B18F6800964FDC /* Delm-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 626206E425B18F6800964FDC /* Delm-Medium.otf */; };
+		626206E725B18F6800964FDC /* ThirstySoftRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 626206E525B18F6800964FDC /* ThirstySoftRegular.otf */; };
+		62AC0DFC25DD5982005F4039 /* MainGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AC0DFB25DD5982005F4039 /* MainGridView.swift */; };
+		62AC0E0425DD5A0C005F4039 /* GridButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AC0E0325DD5A0C005F4039 /* GridButtonView.swift */; };
+		62AC0E2325DD5C71005F4039 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AC0E2225DD5C71005F4039 /* ContentView.swift */; };
+		62B06E80265FE02200FE7E69 /* SwipeLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B06E7F265FE02100FE7E69 /* SwipeLabelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		621CEAC625AEE5B100A3ABA4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		623827132598D0CB00F7F18D /* Instagrid2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagrid2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		623827162598D0CB00F7F18D /* Instagrid2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagrid2App.swift; sourceTree = "<group>"; };
-		623827182598D0CB00F7F18D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6238271A2598D0CC00F7F18D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6238271D2598D0CC00F7F18D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6238271F2598D0CC00F7F18D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +57,18 @@
 		6238272F2598D0CC00F7F18D /* Instagrid2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Instagrid2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		623827332598D0CC00F7F18D /* Instagrid2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagrid2UITests.swift; sourceTree = "<group>"; };
 		623827352598D0CC00F7F18D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		623BD42D25A6242300035DD4 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		62412DE5266264DA00E8A90C /* LayoutStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutStackView.swift; sourceTree = "<group>"; };
+		62412DE726628DCB00E8A90C /* Orientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Orientation.swift; path = Instagrid2/Views/Orientation.swift; sourceTree = SOURCE_ROOT; };
+		6261F75125B83F620033DEE3 /* Bullpen3D.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bullpen3D.ttf; sourceTree = "<group>"; };
+		6261F75625B8413B0033DEE3 /* DancingScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Regular.ttf"; sourceTree = "<group>"; };
+		6261F75B25B842190033DEE3 /* ThirstyScriptExtraBoldDemo.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThirstyScriptExtraBoldDemo.otf; sourceTree = "<group>"; };
+		626206E425B18F6800964FDC /* Delm-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Delm-Medium.otf"; sourceTree = "<group>"; };
+		626206E525B18F6800964FDC /* ThirstySoftRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThirstySoftRegular.otf; sourceTree = "<group>"; };
+		62AC0DFB25DD5982005F4039 /* MainGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGridView.swift; sourceTree = "<group>"; };
+		62AC0E0325DD5A0C005F4039 /* GridButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridButtonView.swift; sourceTree = "<group>"; };
+		62AC0E2225DD5C71005F4039 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = /Users/hquart/Desktop/P12/Instagrid2/Instagrid2/ContentView.swift; sourceTree = "<absolute>"; };
+		62B06E7F265FE02100FE7E69 /* SwipeLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeLabelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +120,11 @@
 			isa = PBXGroup;
 			children = (
 				623827162598D0CB00F7F18D /* Instagrid2App.swift */,
-				623827182598D0CB00F7F18D /* ContentView.swift */,
+				629EC4BD25DD5F9F000850AD /* Views */,
+				629EC4C125DD5FB9000850AD /* Extensions */,
 				6238271A2598D0CC00F7F18D /* Assets.xcassets */,
 				6238271F2598D0CC00F7F18D /* Info.plist */,
+				629EC4C525DD5FCF000850AD /* Fonts */,
 				6238271C2598D0CC00F7F18D /* Preview Content */,
 			);
 			path = Instagrid2;
@@ -128,6 +154,40 @@
 				623827352598D0CC00F7F18D /* Info.plist */,
 			);
 			path = Instagrid2UITests;
+			sourceTree = "<group>";
+		};
+		629EC4BD25DD5F9F000850AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				62AC0E2225DD5C71005F4039 /* ContentView.swift */,
+				62B06E7F265FE02100FE7E69 /* SwipeLabelView.swift */,
+				62412DE5266264DA00E8A90C /* LayoutStackView.swift */,
+				62AC0DFB25DD5982005F4039 /* MainGridView.swift */,
+				62AC0E0325DD5A0C005F4039 /* GridButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		629EC4C125DD5FB9000850AD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				62412DE726628DCB00E8A90C /* Orientation.swift */,
+				621CEAC625AEE5B100A3ABA4 /* Extensions.swift */,
+				623BD42D25A6242300035DD4 /* ImagePicker.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		629EC4C525DD5FCF000850AD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6261F75125B83F620033DEE3 /* Bullpen3D.ttf */,
+				6261F75625B8413B0033DEE3 /* DancingScript-Regular.ttf */,
+				6261F75B25B842190033DEE3 /* ThirstyScriptExtraBoldDemo.otf */,
+				626206E425B18F6800964FDC /* Delm-Medium.otf */,
+				626206E525B18F6800964FDC /* ThirstySoftRegular.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +295,11 @@
 			files = (
 				6238271E2598D0CC00F7F18D /* Preview Assets.xcassets in Resources */,
 				6238271B2598D0CC00F7F18D /* Assets.xcassets in Resources */,
+				626206E725B18F6800964FDC /* ThirstySoftRegular.otf in Resources */,
+				6261F75C25B842190033DEE3 /* ThirstyScriptExtraBoldDemo.otf in Resources */,
+				6261F75225B83F630033DEE3 /* Bullpen3D.ttf in Resources */,
+				626206E625B18F6800964FDC /* Delm-Medium.otf in Resources */,
+				6261F75725B8413C0033DEE3 /* DancingScript-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +324,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				623827192598D0CB00F7F18D /* ContentView.swift in Sources */,
+				62412DE6266264DA00E8A90C /* LayoutStackView.swift in Sources */,
+				62B06E80265FE02200FE7E69 /* SwipeLabelView.swift in Sources */,
+				62AC0E0425DD5A0C005F4039 /* GridButtonView.swift in Sources */,
+				623BD42E25A6242300035DD4 /* ImagePicker.swift in Sources */,
+				62AC0E2325DD5C71005F4039 /* ContentView.swift in Sources */,
 				623827172598D0CB00F7F18D /* Instagrid2App.swift in Sources */,
+				621CEAC725AEE5B100A3ABA4 /* Extensions.swift in Sources */,
+				62412DE826628DCB00E8A90C /* Orientation.swift in Sources */,
+				62AC0DFC25DD5982005F4039 /* MainGridView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +502,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = none.Instagrid2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,7 +524,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = none.Instagrid2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
