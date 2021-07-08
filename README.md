@@ -19,8 +19,8 @@
 
 ## Credits
 
-OpenClassRooms DA iOS 
-Naji Achkar 
+* OpenClassRooms DA iOS 
+* Naji Achkar 
 
 ## License
 
