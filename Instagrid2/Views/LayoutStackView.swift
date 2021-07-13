@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 // Layout Class is used to publish LayoutStack state and put it in the environment
 ////////////////////////////////////////////////////////////////////////////////////
 class Layout: ObservableObject {
@@ -23,7 +22,6 @@ struct LayoutStackView: View {
         Group {
             ForEach(1..<4, id: \.self) { id in
                 Button(action: { switchLayout(selection: id) }) {
-                     
                     Image(layout.selected == Int(id)  ? "Selected \(id)" : "Layout \(id)")
                         .resizable()
                         .frame(width: 80, height: 80)

@@ -67,7 +67,7 @@
 		626206E525B18F6800964FDC /* ThirstySoftRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThirstySoftRegular.otf; sourceTree = "<group>"; };
 		62AC0DFB25DD5982005F4039 /* MainGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGridView.swift; sourceTree = "<group>"; };
 		62AC0E0325DD5A0C005F4039 /* GridButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridButtonView.swift; sourceTree = "<group>"; };
-		62AC0E2225DD5C71005F4039 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = /Users/hquart/Desktop/P12/Instagrid2/Instagrid2/ContentView.swift; sourceTree = "<absolute>"; };
+		62AC0E2225DD5C71005F4039 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = /Users/hquart/Documents/GitHub/Instagrid2/Instagrid2/Views/ContentView.swift; sourceTree = "<absolute>"; };
 		62B06E7F265FE02100FE7E69 /* SwipeLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeLabelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
